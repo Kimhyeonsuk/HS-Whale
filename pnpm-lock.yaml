@@ -51,7 +51,7 @@ importers:
         specifier: ^0.6.2
         version: 0.6.2
       ai:
-        specifier: ^3.2.16
+        specifier: ^3.3.7
         version: 3.3.7(openai@4.55.7(zod@3.23.8))(react@18.3.1)(sswr@2.1.0(svelte@4.2.18))(svelte@4.2.18)(vue@3.4.37(typescript@5.5.4))(zod@3.23.8)
       class-variance-authority:
         specifier: ^0.7.0
@@ -69,10 +69,10 @@ importers:
         specifier: ^10.2.3
         version: 10.2.3(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       framer-motion:
-        specifier: ^11.2.12
+        specifier: ^11.3.27
         version: 11.3.27(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       geist:
-        specifier: ^1.3.0
+        specifier: ^1.3.1
         version: 1.3.1(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       nanoid:
         specifier: ^5.0.7
@@ -87,7 +87,7 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       openai:
-        specifier: ^4.52.2
+        specifier: ^4.55.7
         version: 4.55.7(zod@3.23.8)
       react:
         specifier: ^18.3.1
@@ -96,7 +96,7 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-intersection-observer:
-        specifier: ^9.10.3
+        specifier: ^9.13.0
         version: 9.13.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-markdown:
         specifier: ^8.0.7
@@ -124,13 +124,13 @@ importers:
         version: 3.23.8
     devDependencies:
       '@tailwindcss/typography':
-        specifier: ^0.5.13
+        specifier: ^0.5.14
         version: 0.5.14(tailwindcss@3.4.9)
       '@types/d3-scale':
         specifier: ^4.0.8
         version: 4.0.8
       '@types/node':
-        specifier: ^20.14.9
+        specifier: ^20.14.15
         version: 20.14.15
       '@types/react':
         specifier: ^18.3.3
@@ -142,16 +142,16 @@ importers:
         specifier: ^15.5.13
         version: 15.5.13
       '@typescript-eslint/parser':
-        specifier: ^7.14.1
+        specifier: ^7.18.0
         version: 7.18.0(eslint@8.57.0)(typescript@5.5.4)
       autoprefixer:
-        specifier: ^10.4.19
+        specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.41)
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
       eslint:
-        specifier: ^8.56.0
+        specifier: ^8.57.0
         version: 8.57.0
       eslint-config-next:
         specifier: 14.1.0
@@ -160,25 +160,25 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@8.57.0)
       eslint-plugin-tailwindcss:
-        specifier: ^3.14.0
+        specifier: ^3.17.4
         version: 3.17.4(tailwindcss@3.4.9)
       postcss:
-        specifier: ^8.4.39
+        specifier: ^8.4.41
         version: 8.4.41
       prettier:
-        specifier: ^3.3.2
+        specifier: ^3.3.3
         version: 3.3.3
       tailwind-merge:
-        specifier: ^2.3.0
+        specifier: ^2.5.2
         version: 2.5.2
       tailwindcss:
-        specifier: ^3.4.4
+        specifier: ^3.4.9
         version: 3.4.9
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.9)
       typescript:
-        specifier: ^5.5.2
+        specifier: ^5.5.4
         version: 5.5.4
 
 packages:
