@@ -4,7 +4,7 @@ import { Session } from '@/src/lib/types'
 import { redirect } from 'next/navigation'
 
 export default async function SignupPage() {
-  const session = (await auth()) as Session
+  const session = (auth()) as Session
 
   if (session) {
     redirect('/')

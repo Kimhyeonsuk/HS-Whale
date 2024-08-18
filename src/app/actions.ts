@@ -8,7 +8,7 @@ import { auth } from '@/src/auth'
 import { type Chat } from '@/src/lib/types'
 
 export async function getChats(userId?: string | null) {
-  const session = await auth()
+  const session = auth()
 
   if (!userId) {
     return []
@@ -39,7 +39,7 @@ export async function getChats(userId?: string | null) {
 }
 
 export async function getChat(id: string, userId: string) {
-  const session = await auth()
+  const session = auth()
 
   if (userId !== session?.user?.id) {
     return {
@@ -57,7 +57,7 @@ export async function getChat(id: string, userId: string) {
 }
 
 export async function removeChat({ id, path }: { id: string; path: string }) {
-  const session = await auth()
+  const session = auth()
 
   if (!session) {
     return {
@@ -82,7 +82,7 @@ export async function removeChat({ id, path }: { id: string; path: string }) {
 }
 
 export async function clearChats() {
-  const session = await auth()
+  const session = auth()
 
   if (!session?.user?.id) {
     return {
@@ -118,7 +118,7 @@ export async function getSharedChat(id: string) {
 }
 
 export async function shareChat(id: string) {
-  const session = await auth()
+  const session = auth()
 
   if (!session?.user?.id) {
     return {
@@ -145,7 +145,7 @@ export async function shareChat(id: string) {
 }
 
 export async function saveChat(chat: Chat) {
-  const session = await auth()
+  const session = auth()
 
   if (session && session.user) {
     const pipeline = kv.pipeline()

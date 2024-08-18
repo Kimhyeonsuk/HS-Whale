@@ -15,6 +15,13 @@ interface SharePageProps {
     id: string
   }
 }
+export function generateStaticParams(): any[] {
+  return [{
+    params: {
+      id: 'sukrrard'
+    }
+  }]
+}
 
 export async function generateMetadata({
   params

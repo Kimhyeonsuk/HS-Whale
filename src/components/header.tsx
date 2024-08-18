@@ -17,7 +17,7 @@ import { ChatHistory } from './chat-history'
 import { Session } from '@/src/lib/types'
 
 async function UserOrLogin() {
-  const session = (await auth()) as Session
+  const session = (auth()) as Session
   return (
     <>
       {session?.user ? (

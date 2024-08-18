@@ -12,11 +12,18 @@ export interface ChatPageProps {
     id: string
   }
 }
+export function generateStaticParams(): any[] {
+  return [{
+    params: {
+      id: 'sukrrard'
+    }
+  }]
+}
 
 export async function generateMetadata({
   params
 }: ChatPageProps): Promise<Metadata> {
-  const session = await auth()
+  const session = auth()
 
   if (!session?.user) {
     return {}
@@ -34,7 +41,7 @@ export async function generateMetadata({
 }
 
 export default async function ChatPage({ params }: ChatPageProps) {
-  const session = (await auth()) as Session
+  const session = (auth()) as Session
   const missingKeys = await getMissingKeys()
 
   if (!session?.user) {
